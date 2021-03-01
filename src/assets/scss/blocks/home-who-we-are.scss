@@ -1,0 +1,16 @@
+.home-who-we-are__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0 90px;
+    width: 100%;
+     h2{
+        color: #EF6079;
+        font-size: 64px;
+        padding-right: 5%;
+    }
+    span {
+        font-size: 26px;
+        width: 44%;
+    }
+}
