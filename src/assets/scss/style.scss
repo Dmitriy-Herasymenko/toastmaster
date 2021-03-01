@@ -1,0 +1,11 @@
+@import "vars";
+
+body {
+    background-color: $white;
+    font-size: 21px;
+    color: $black;
+}
+
+/*Blocks*/
+@import "blocks/header";
+@import "blocks/home-title"

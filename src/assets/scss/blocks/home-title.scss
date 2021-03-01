@@ -1,0 +1,25 @@
+.home-welcome-tile{
+    width: 100%;
+    height: calc(100vh - 109px);
+    background-color: #003DA5;
+    position: relative;
+    z-index: 0;
+    h1 {
+        position: absolute;
+        top: 20%;
+        left: 35%;
+        margin: 0 auto;
+        bottom: auto;
+        color: #fff;
+        z-index: 99;
+        font-size: 7vw;
+        line-height: 1.2em;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    .home-welcome-title_img{
+        width: 40%;
+        height: 100%;
+        background-color: #F4D3D6;
+    }
+}
