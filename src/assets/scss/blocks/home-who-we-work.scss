@@ -1,0 +1,53 @@
+.home-who-we-work{
+    &__container {
+        display: flex;
+        margin: 0 -25px;
+        margin: 0 auto;
+        max-width: 1280px;
+        padding: 60px 50px 140px;
+    }
+    &__abstract-image {
+        margin: 0 25px;
+        background-color: #f4d3d6;
+        background-size: cover;
+    }
+    &__copy{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 25px;
+        padding: 60px 50px 140px;
+        h2{
+            color: $red;
+            font-size: 36px;
+            text-transform: uppercase;
+        }
+        span{
+            color: #404040;
+            font-family: "brandon-grotesque", sans-serif;
+            font-size: 1.2rem;
+            line-height: 1.5;
+            letter-spacing: 2px;
+        }
+        button{
+            width: 250px;
+            padding: 10px 48px;
+            border: 1px $red solid;
+            margin-top: 60px;
+            background-color: $white;
+            a{
+                color: $red;
+                text-decoration: none;
+                line-height: 1.2em;
+                font-size: .9rem;
+                text-transform: uppercase;
+            }
+        }
+        button:hover{
+            background-color: $red;
+            a:hover{
+                color: $white;
+            }
+        }
+    }
+}
