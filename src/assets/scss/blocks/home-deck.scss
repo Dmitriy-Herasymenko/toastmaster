@@ -1,0 +1,63 @@
+.home-deck{
+    &__container{
+        display: flex;
+        margin: 0 -25px;
+        margin: 0 auto;
+        max-width: 1280px;
+        padding: 60px 50px 140px;
+        
+    }
+    &__copy{
+        display: flex;
+        flex-direction: column;
+        margin: 0 25px;
+        padding: 60px 50px 140px;
+        background-color: $red;
+        h2{
+            color: $white;
+            font-size: 36px;
+            text-transform: uppercase;
+        }
+        span{
+            color: $white;
+            font-family: "brandon-grotesque", sans-serif;
+            font-size: 1.2rem;
+            line-height: 1.5;
+            letter-spacing: 2px;
+        }
+        button{
+            width: 250px;
+            padding: 10px 48px;
+            margin-top: 60px;
+            background-color: $red;
+            border: 1px $white solid;
+            color: white;
+             a {
+                text-decoration: none;
+                line-height: 1.2em;
+                font-size: .9rem;
+                text-transform: uppercase;
+             }
+            }
+        button:hover{
+            background-color: white;
+            a{
+                color: #000;
+            }
+          }  
+    }
+
+    &__img{
+        margin: 0 -25px;
+        background-color: $purple;
+        width: 100%;
+        position: relative;
+        img{
+            position: absolute;
+            right: 0;
+            transform: translateY(-50%);
+            top: 50%;
+        }
+    }
+    
+}

@@ -126,7 +126,7 @@ body {
   margin: 0 -25px;
   margin: 0 auto;
   max-width: 1280px;
-  padding: 60px 50px 140px; }
+  margin-top: 140px; }
 
 .home-who-we-work__abstract-image {
   margin: 0 25px;
@@ -165,3 +165,54 @@ body {
     background-color: #ef6079; }
     .home-who-we-work__copy button:hover a {
       color: #fff; }
+
+.home-deck__container {
+  display: flex;
+  margin: 0 -25px;
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 60px 50px 140px; }
+
+.home-deck__copy {
+  display: flex;
+  flex-direction: column;
+  margin: 0 25px;
+  padding: 60px 50px 140px;
+  background-color: #ef6079; }
+  .home-deck__copy h2 {
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase; }
+  .home-deck__copy span {
+    color: #fff;
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    letter-spacing: 2px; }
+  .home-deck__copy button {
+    width: 250px;
+    padding: 10px 48px;
+    margin-top: 60px;
+    background-color: #ef6079;
+    border: 1px #fff solid;
+    color: white; }
+    .home-deck__copy button a {
+      text-decoration: none;
+      line-height: 1.2em;
+      font-size: .9rem;
+      text-transform: uppercase; }
+  .home-deck__copy button:hover {
+    background-color: white; }
+    .home-deck__copy button:hover a {
+      color: #000; }
+
+.home-deck__img {
+  margin: 0 -25px;
+  background-color: #f4d3d6;
+  width: 100%;
+  position: relative; }
+  .home-deck__img img {
+    position: absolute;
+    right: 0;
+    transform: translateY(-50%);
+    top: 50%; }
