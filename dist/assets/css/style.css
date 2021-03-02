@@ -63,7 +63,7 @@ body {
     letter-spacing: 2px;
 }
 
-.home-welcome-tile {
+.home-welcome-title {
     width: 100%;
     height: calc(100vh - 109px);
     background-color: #003DA5;
@@ -71,7 +71,7 @@ body {
     z-index: 0;
 }
 
-.home-welcome-tile h1 {
+.home-welcome-title h1 {
     position: absolute;
     top: 20%;
     left: 35%;
@@ -85,8 +85,30 @@ body {
     font-weight: 600;
 }
 
-.home-welcome-tile .home-welcome-title_img {
+.home-welcome-title .home-welcome-title_img {
     width: 40%;
     height: 100%;
     background-color: #F4D3D6;
+}
+
+.home-who-we-are__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 90px 0 90px;
+    width: 100%;
+}
+
+.home-who-we-are__container h2 {
+    color: #EF6079;
+    font-size: 64px;
+    padding-right: 5%;
+}
+
+.home-who-we-are__container span {
+    font-size: 26px;
+    width: 44%;
 }
