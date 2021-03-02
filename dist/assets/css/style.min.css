@@ -113,14 +113,13 @@ body {
       text-transform: uppercase; }
   .home-services__corporate button:hover, .home-services__social button:hover {
     background-color: #ef6079; }
-    .home-services__corporate button:hover a:hover, .home-services__social button:hover a:hover {
+    .home-services__corporate button:hover a, .home-services__social button:hover a {
       color: #fff; }
 
 .home-services__social {
   background-color: #f4d3d6; }
   .home-services__social button {
-    background-color: #f4d3d6;
-    border: 1px #ef6079 solid; }
+    background-color: #f4d3d6; }
 
 .home-who-we-work__container {
   display: flex;
@@ -151,11 +150,11 @@ body {
     line-height: 1.5;
     letter-spacing: 2px; }
   .home-who-we-work__copy button {
+    background-color: white;
     width: 250px;
     padding: 10px 48px;
     border: 1px #ef6079 solid;
-    margin-top: 60px;
-    background-color: #fff; }
+    margin-top: 60px; }
     .home-who-we-work__copy button a {
       color: #ef6079;
       text-decoration: none;
@@ -164,5 +163,5 @@ body {
       text-transform: uppercase; }
   .home-who-we-work__copy button:hover {
     background-color: #ef6079; }
-    .home-who-we-work__copy button:hover a:hover {
+    .home-who-we-work__copy button:hover a {
       color: #fff; }

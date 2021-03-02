@@ -1,0 +1,21 @@
+@import "./vars";
+
+@mixin btn {
+    width: 250px;
+    padding: 10px 48px;
+    border: 1px $red solid;
+    margin-top: 60px;
+    a{ 
+        color: $red;
+        text-decoration: none;
+        line-height: 1.2em;
+        font-size: .9rem;
+        text-transform: uppercase;
+    }
+}
+@mixin btn-hover {
+    background-color: $red;
+        a{
+          color: $white;
+        }
+}
